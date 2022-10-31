@@ -1,0 +1,83 @@
+/** HEADER **/
+#header-nav {
+  background-color: black;
+  border-radius: 0;
+  border: 0;
+  height: auto;
+}
+/**COMPANY NAME**/
+.navbar-brand h1 {
+  font-weight: bold;
+  margin-top: 10px;
+  line-height: 1;
+}
+.container button.navbar-toggle, .container .icon-bar{
+  border: 1px solid whitesmoke;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+text-align: center;
+}
+#nav-list a:hover {
+  background: #e7e7e7;
+}
+#nav-list a span {
+  font-size: 1em;
+}
+.navbar-brand h1, button.navbar-toggle {
+  clear: both;
+  
+
+  
+}
+/** END HEADER**/
+
+/** MAIN CONTENT **/
+body {
+  background-color: rgb(155, 155, 155);
+}
+h2 {
+  font-size: 500%;
+  text-align: center;
+  font-weight: bold;
+}
+.row {
+  background-color: white;
+}
+/*.jumbotron {
+  width: auto;
+  margin: auto;
+}*/
+.jumbotron h3 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+/**SIZE DIVICES**/
+
+/**large divices only**/
+@media (min-width:1200px) {
+/*usar width espefico y margin especifico*/
+/*.container .jumbotron {
+  width: 160%;
+  margin-left: -345px;
+  
+}*/
+}
+/**medium divices only**/
+@media (min-width:992px) and (max-width:1199px) {
+ /* .container .jumbotron {
+    width: 1000px;
+  }*/
+
+}
+/**small divices only**/
+@media (min-width:768px) and (max-width:991px) {
+/*usar width espefico y margin especifico*/
+}
+/**extra small divices only**/
+@media (max-width:767px) {
+  /*usar width espefico y margin especifico*/
+}
